@@ -8,6 +8,8 @@
   --light: #f4f4fd;
   --accent: #e7e9fc;
   --light-slate: #8e8f99;
+  --ocean: #404bbf;
+  --green: #31d0aa;
 
   /* cell */
   --items: 4;
@@ -89,6 +91,10 @@ body {
 
 .svg-light-slate-color {
   fill: var(--light-slate);
+}
+
+.svg-light-slate-border {
+  stroke: var(--light-slate);
 }
 
 .svg-light-color {
@@ -302,6 +308,10 @@ body {
   text-align: center;
 }
 
+.member:hover .icon-background {
+  fill: var(--ocean);
+}
+
 .team-title {
   margin-top: 0px;
   margin-bottom: 72px;
@@ -345,6 +355,14 @@ body {
 /* <CUSTOMERS> */
 .customers-list {
   --items: 6;
+}
+
+.customers-client:hover .customer-icon-background {
+  fill: var(--ocean);
+}
+
+.customers-client:hover .client-icon-border {
+  stroke: var(--ocean);
 }
 
 .customers-title {
@@ -470,6 +488,14 @@ body {
 
 .footer-media-item {
   flex-basis: auto;
+}
+
+.footer-media-icon-background {
+  fill: rgba();
+}
+
+.footer-media-link:hover .footer-media-icon-background {
+  fill: var(--green);
 }
 
 .footer-madia-title {
