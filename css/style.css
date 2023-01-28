@@ -308,7 +308,8 @@ body {
   text-align: center;
 }
 
-.member:hover .icon-background {
+.member-soc-media-link:hover .icon-background,
+.member-soc-media-link:focus .icon-background {
   fill: var(--ocean);
 }
 
@@ -357,11 +358,13 @@ body {
   --items: 6;
 }
 
-.customers-client:hover .customer-icon-background {
+.customers-client-link:hover .customer-icon-background,
+.customers-client-link:focus .customer-icon-background {
   fill: var(--ocean);
 }
 
-.customers-client:hover .client-icon-border {
+.customers-client-link:hover .client-icon-border,
+.customers-client-link:focus .client-icon-border {
   stroke: var(--ocean);
 }
 
