@@ -494,7 +494,8 @@ body {
   fill: rgba();
 }
 
-.footer-media-link:hover .footer-media-icon-background {
+.footer-media-link:hover .footer-media-icon-background,
+.footer-media-link:focus .footer-media-icon-background {
   fill: var(--green);
 }
 
